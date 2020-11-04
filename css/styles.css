@@ -284,7 +284,7 @@ body{
  nav {
     position:absolute ;                /* Absolute positions nav on page */
     background-color: rgb(131, 126, 126);            /* Set background color for nav (useful when nav becomes vertical)*/
-    top: 80px;                        /* Add space to top of screen so links are below hamburger icon */
+    top: 68px;                        /* Add space to top of screen so links are below hamburger icon */
     left:0;                            /* Navigation links should appear on left side of screen */
     width: 100%;                       /* Similar to .menu-wrap, nav should fill entire horizontal space */
 }
