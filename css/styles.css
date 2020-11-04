@@ -1,271 +1,340 @@
 body{
-   padding: 0%;
-   margin: 0%;
-    background-color: #d3d8f3;
-    font-family: 'Oswald', sans-serif;
-    
-}
-h1{
-    font-size: 100px;
-    text-align: center;
-font-family: 'Raleway', san-serif;
-line-height: 1;
-}
-h2{
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    line-height: 1;
-}
-.wrapper{
-    display:grid;
-    grid-template-columns: minmax(min-content) minmax(min-content) minmax(min-content);
-    grid-template-rows: minmax(min-content, 200px) minmax(min-content, max-content) minmax(min-content, 100px) minmax(min-content, 80px) minmax(min-content, 100px) minmax(min-content, 80px) minmax(min-content, 100px) minmax(min-content, 80px) 
-
-}
-header{
-    max-height: 300px;
-}
-.header{
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 4;
-   padding: 0%;
-   margin: 0%;
-    background-image:url("../images/pexels-scott-webb-1029624_1200x.jpg");
-    background-size: cover;  
-    
-}
-.header h1{
-    margin: 0%;
     padding: 0%;
-}
-.header h2{
     margin: 0%;
+     background-color: #d3d8f3;
+     font-family: 'Oswald', sans-serif;
+     
+ }
+ h1{
+     font-size: 100px;
+     text-align: center;
+ font-family: 'Raleway', san-serif;
+ line-height: 1;
+ }
+ h2{
+     font-size: 60px;
+     text-align: center;
+     font-family: 'Oswald', sans-serif;
+     line-height: 1;
+ }
+ .wrapper{
+     display:grid;
+     grid-template-columns: minmax(min-content) minmax(min-content) minmax(min-content);
+     grid-template-rows: minmax(min-content, 200px) minmax(min-content, max-content) minmax(min-content, 100px) minmax(min-content, 80px) minmax(min-content, 100px) minmax(min-content, 80px) minmax(min-content, 100px) minmax(min-content, 80px) 
+ 
+ }
+ header{
+     max-height: 300px;
+ }
+ .header{
+     display: grid;
+     grid-column-start: 1;
+     grid-column-end: 4;
     padding: 0%;
-}
-
-.navigation{
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    background-color: #B4ADB4;
-    padding: 8px;
     margin: 0%;
-    max-height: 100px;
+     background-image:url("../images/pexels-scott-webb-1029624_1200x.jpg");
+     background-size: cover;  
+     
+ }
+ .header h1{
+     margin: 0%;
+     padding: 0%;
+ }
+ .header h2{
+     margin: 0%;
+     padding: 0%;
+ }
+ 
+ .navigation{
+     display: grid;
+     grid-column-start: 1;
+     grid-column-end: 4;
+     background-color: #B4ADB4;
+     padding: 8px;
+     margin: 0%;
+     max-height: 100px;
+     width: 100%;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     justify-items: center;
+    
+ }
+
+ 
+ .project1{
+     display:grid;
+     justify-content: center;
+ }
+ .project1 img{
+     max-width: 300px;
+     max-height: 300px;
+     padding: 15px;
+    
+ }
+ .project1-description{
+     display: grid;
+     max-height: 40px;
+     grid-column-start: 1;
+     grid-row-start: 4;
+     justify-content: center;
+     text-align: center;
+     padding: 15px;
+ }
+ .project2{
+     display: grid;
+     justify-content: center;
+ }
+ .project2 img{
+     max-width: 300px;
+     max-height: 300px;
+     padding: 15px;
+     
+ }
+ .project2-description{
+     display: grid;
+     max-height: 40px;
+     grid-column-start: 2;
+     grid-row-start: 4;
+     justify-content: center;
+     text-align: center;
+     padding: 15px;
+ }
+ .project3{
+     display:grid;
+     justify-content: center;
+ }
+ .project3 img{
+     max-width: 300px;
+     max-height: 300px;
+     padding: 15px;
+ }
+ .project3-description{
+     display: grid;
+     max-height: 40px;
+     grid-column-start: 3;
+     grid-row-start: 4;
+     justify-content: center;
+     text-align: center;
+     padding: 15px;
+ }
+ .project4{
+     display:grid;
+     justify-content: center;
+ }
+ .project4 img{
+     max-width: 300px;
+     max-height: 300px;
+     padding: 15px;
+     
+ }
+ .project4-description{
+     display: grid;
+     max-height: 40px;
+     grid-column-start: 1;
+     grid-row-start: 6;
+     justify-content: center;
+     text-align: center;
+     padding: 15px;
+ 
+ }
+ .project5{
+     display:grid;
+     justify-content: center;
+ }
+ .project5 img{
+     max-width: 300px;
+     max-height: 300px;
+     padding: 15px;
+     
+ }
+ .project5-description{
+     display: grid;
+     max-height: 40px;
+     grid-column-start: 2;
+     grid-row-start: 6;
+     justify-content: center;
+     text-align: center;
+     padding: 15px;
+ }
+ .project6{
+     display:grid;
+     justify-content: center;
+ }
+ .project6 img{
+     max-width: 300px;
+     max-height: 300px;
+     padding: 15px;
+     
+ }
+ .project6-description{
+     display: grid;
+     max-height: 40px;
+     grid-column-start: 3;
+     grid-row-start: 6;
+     justify-content: center;
+     text-align: center;
+     padding: 15px;
+ }
+ .project7{
+     display:grid;
+     justify-content: center;
+ }
+ .project7 img{
+     max-width: 300px;
+     max-height: 300px;
+     padding: 15px;
+     
+ }
+ .project7-description{
+     display: grid;
+     max-height: 40px;
+     grid-column-start: 1;
+     grid-row-start: 8;
+     justify-content: center;
+     text-align: center;
+     padding: 15px;
+ }
+ .project8{
+     display:grid;
+     justify-content: center;
+ }
+ .project8 img{
+     max-width: 300px;
+     max-height: 300px;
+     padding: 15px;
+     
+ }
+ .project8-description{
+     display: grid;
+     max-height: 40px;
+     grid-column-start: 2;
+     grid-row-start: 8;
+     justify-content: center;
+     text-align: center;
+     padding: 15px;
+ }
+ .project9{
+     display:grid;
+     justify-content: center;
+ }
+ .project9 img{
+     max-width: 300px;
+     max-height: 300px;
+     padding: 15px;
+     
+ }
+ .project9-description{
+     display: grid;
+     max-height: 40px;
+     grid-column-start: 3;
+     grid-row-start: 8;
+     justify-content: center;
+     text-align: center;
+     padding: 15px;
+ }
+ 
+ .footer{
+     display: grid;
+     background-color: #F6E8EA;
+     padding: 35px 5px 5px 5px;
+     margin: 0%;
+     grid-template-columns: 1fr 1fr 1fr;
+     text-align: center;
+     
+ }
+ 
+ @media screen and (max-width:930px){
+ .wrapper{
+     display: inline;
+ }
+     
+     h1{
+         font-size: 80px;
+         text-align: center;
+     font-family: 'Raleway', san-serif;
+     line-height: 1;
+     }
+     h2{
+         font-size: 40px;
+         text-align: center;
+         font-family: 'Oswald', sans-serif;
+         line-height: 1;
+ }
+ .header h1{
+     margin: 10px;
+     padding: 0%;
+ }
+ .header h2{
+     margin: 10px;
+     padding: 0%;
+ }
+ header{
+     max-height: 50px;
+ }
+ .navigation{
+    height: 3em;                       
+    background-color: rgb(131, 126, 126);           
+    padding: 10px 15px;                
     width: 100%;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-   
+ }
+ .menu-icon{
+     font-size: 2em;
+     color: indigo;
+ }
+ nav {
+    position:absolute ;                /* Absolute positions nav on page */
+    background-color: rgb(131, 126, 126);            /* Set background color for nav (useful when nav becomes vertical)*/
+    top: 22em;                        /* Add space to top of screen so links are below hamburger icon */
+    left:0;                            /* Navigation links should appear on left side of screen */
+    width: 100%;                       /* Similar to .menu-wrap, nav should fill entire horizontal space */
 }
+nav ul {
+    list-style-type: none;             /* Get rid of bullets on unordered list (navigation links) */
+    max-height: 0em;                   /* Section containing navigation links should be collapsed until hamburger menu icon is toggled */
+    overflow: hidden;                  /* Content of collapsed section should be hidden */
+    transition: max-height 0.5s;       /* Transition between opening and closing of navigation should take 0.5 seconds */
+}
+nav ul li a {
+    display: block;                    /* Links should be displayed as block (each link taking up its required space on a new line) */
+    padding: .75em 1.75em;             /* Set padding for each navigation link */
+    color: #fff;                       /* Set color for navigation links */
+    text-decoration: none;             /* Get rid of underlines on navigation links */
+}
+nav ul li a:hover, nav ul li a:focus {
+    color: indigo;                       /* Change color of link when hovered over or focused on */
+}
+#checkbox {
+    display: none;                     /* Although the checkbox functionality is needed, we don't want to see the actual checkbox */
+}
+#checkbox:checked ~ nav ul {
+    max-height: 11em;                  /* When the checkbox is checked, expand the height of ul to reveal navigation */
+}
+.full-nav-item{
+    display: none;
+}
+ }
 
-.project1{
-    display:grid;
-    justify-content: center;
-}
-.project1 img{
-    max-width: 300px;
-    max-height: 300px;
-    padding: 15px;
-   
-}
-.project1-description{
-    display: grid;
-    max-height: 40px;
-    grid-column-start: 1;
-    grid-row-start: 4;
-    justify-content: center;
-    text-align: center;
-    padding: 15px;
-}
-.project2{
-    display: grid;
-    justify-content: center;
-}
-.project2 img{
-    max-width: 300px;
-    max-height: 300px;
-    padding: 15px;
-    
-}
-.project2-description{
-    display: grid;
-    max-height: 40px;
-    grid-column-start: 2;
-    grid-row-start: 4;
-    justify-content: center;
-    text-align: center;
-    padding: 15px;
-}
-.project3{
-    display:grid;
-    justify-content: center;
-}
-.project3 img{
-    max-width: 300px;
-    max-height: 300px;
-    padding: 15px;
-}
-.project3-description{
-    display: grid;
-    max-height: 40px;
-    grid-column-start: 3;
-    grid-row-start: 4;
-    justify-content: center;
-    text-align: center;
-    padding: 15px;
-}
-.project4{
-    display:grid;
-    justify-content: center;
-}
-.project4 img{
-    max-width: 300px;
-    max-height: 300px;
-    padding: 15px;
-    
-}
-.project4-description{
-    display: grid;
-    max-height: 40px;
-    grid-column-start: 1;
-    grid-row-start: 6;
-    justify-content: center;
-    text-align: center;
-    padding: 15px;
-
-}
-.project5{
-    display:grid;
-    justify-content: center;
-}
-.project5 img{
-    max-width: 300px;
-    max-height: 300px;
-    padding: 15px;
-    
-}
-.project5-description{
-    display: grid;
-    max-height: 40px;
-    grid-column-start: 2;
-    grid-row-start: 6;
-    justify-content: center;
-    text-align: center;
-    padding: 15px;
-}
-.project6{
-    display:grid;
-    justify-content: center;
-}
-.project6 img{
-    max-width: 300px;
-    max-height: 300px;
-    padding: 15px;
-    
-}
-.project6-description{
-    display: grid;
-    max-height: 40px;
-    grid-column-start: 3;
-    grid-row-start: 6;
-    justify-content: center;
-    text-align: center;
-    padding: 15px;
-}
-.project7{
-    display:grid;
-    justify-content: center;
-}
-.project7 img{
-    max-width: 300px;
-    max-height: 300px;
-    padding: 15px;
-    
-}
-.project7-description{
-    display: grid;
-    max-height: 40px;
-    grid-column-start: 1;
-    grid-row-start: 8;
-    justify-content: center;
-    text-align: center;
-    padding: 15px;
-}
-.project8{
-    display:grid;
-    justify-content: center;
-}
-.project8 img{
-    max-width: 300px;
-    max-height: 300px;
-    padding: 15px;
-    
-}
-.project8-description{
-    display: grid;
-    max-height: 40px;
-    grid-column-start: 2;
-    grid-row-start: 8;
-    justify-content: center;
-    text-align: center;
-    padding: 15px;
-}
-.project9{
-    display:grid;
-    justify-content: center;
-}
-.project9 img{
-    max-width: 300px;
-    max-height: 300px;
-    padding: 15px;
-    
-}
-.project9-description{
-    display: grid;
-    max-height: 40px;
-    grid-column-start: 3;
-    grid-row-start: 8;
-    justify-content: center;
-    text-align: center;
-    padding: 15px;
-}
-
-.footer{
-    display: grid;
-    background-color: #F6E8EA;
-    padding: 35px 5px 5px 5px;
-    margin: 0%;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
-    
-}
-
-@media screen and (max-width:930px){
-.wrapper{
-    display: inline;
-}
-    
-    h1{
-        font-size: 80px;
-        text-align: center;
-    font-family: 'Raleway', san-serif;
-    line-height: 1;
+@media (min-width: 931px) {             /* Media Query for larger screens */
+    .menu-icon {
+         display: none;                /* Hide hamburger menu icon on larger screens */
     }
-    h2{
-        font-size: 40px;
-        text-align: center;
-        font-family: 'Oswald', sans-serif;
-        line-height: 1;
-}
-.header h1{
-    margin: 10px;
-    padding: 0%;
-}
-.header h2{
-    margin: 10px;
-    padding: 0%;
-}
-header{
-    max-height: 50px;
+   
+    nav ul {
+         max-height: 0.75em;           /* Adjust max-height to fit content horizontally rather than vertically */
+         padding: 15px 0;
+    }
+    nav ul li {
+         display: inline-block;        /* Display list items as an inline-block (on a single line) */
+         padding-left: 1em;            /* Add padding between horizontal links */
+    }
+    #checkbox{
+        display:none;
+
+    }
+
+    .full-nav-item {
+        display: block;
+    }
+    nav{
+        display: none;
+    }
 }
